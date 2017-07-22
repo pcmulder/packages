@@ -72,7 +72,7 @@ test_packages() {
 src-git base https://git.lede-project.org/source.git
 src-link packages $PACKAGES_DIR
 src-git luci https://git.lede-project.org/project/luci.git
-src-git routing https://git.lede-project.org/feed/routing.git
+src-git routing http s://git.lede-project.org/feed/routing.git
 src-git telephony https://git.lede-project.org/feed/telephony.git
 EOF
 		./scripts/feeds update 2>/dev/null >/dev/null
